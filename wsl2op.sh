@@ -11,11 +11,11 @@
 # Description: WSL automatically compiles Openwrt script code
 
 # 路由默认IP地址
-routeIP=10.10.0.253
+routeIP=192.168.1.111
 # 编译环境中当前账户名字
 userName=$USER
 # 默认OpenWrtAction的Config文件夹中的config文件名
-configName=x64.config
+configName=neo2.config
 # 默认lean源码文件夹名
 ledeDir=lede_$configName
 config_list=($(ls /home/$userName/OpenWrtAction/config))
@@ -24,7 +24,7 @@ timer=15
 # 编译环境默认值，1为WSL2，2为非WSL2的Linux环境。不要修改这里
 sysenv=1
 # OpenWrtAction Git URL
-owaUrl=https://github.com/smallprogram/OpenWrtAction.git
+owaUrl=https://github.com/huangzulin/nanopi-neo2-lede.git
 # 是否首次编译 0否，1是
 isFirstCompile=0
 # 编译openwrt的log日志文件夹名称
