@@ -29,6 +29,10 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git ./package/le
 # git clone https://github.com/jerrykuku/luci-app-vssr.git
 # git clone https://github.com/lisaac/luci-app-dockerman.git
 
+#smartdns
+
+git clone https://github.com/pymumu/luci-app-smartdns.git -b lede ./package/lean/luci-app-smartdns
+
 #passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git -b packages ./package/lean/passwall_package
 git clone https://github.com/xiaorouji/openwrt-passwall.git -b luci ./package/lean/passwall
